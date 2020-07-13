@@ -1,5 +1,5 @@
 {
-  "name": "Talky server",
+  "name": "talky",
   "version": "1.0.0",
   "description": "This is the websocket server for the chat app Talky",
   "main": "server.js",
