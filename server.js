@@ -7,7 +7,7 @@ const server = http.createServer(express);
 const wss = new WebSocket.Server({ server });
 const rooms = [
   { room: "Standard", users: [] },
-  { room: "Reisen", users: [] },
+  { room: "Travel", users: [] },
   { room: "Dating", users: [] },
 ];
 
