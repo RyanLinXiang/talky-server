@@ -1,16 +1,16 @@
 {
-  "name": "websocketserver",
+  "name": "Talky server",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the websocket server for the chat app Talky",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Lin Xiang",
+  "author": "Ryan Lin Xiang",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "ws": "0.4.x"
+    "ws": ">=1.1.5"
   }
 }
