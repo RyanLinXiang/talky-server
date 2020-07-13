@@ -5,11 +5,7 @@ const WebSocket = require("ws");
 const port = process.env.PORT || 6969;
 const server = http.createServer(express);
 const wss = new WebSocket.Server({ server });
-const rooms = [
-  { room: "Standard", users: [] },
-  { room: "Travel", users: [] },
-  { room: "Dating", users: [] },
-];
+const rooms = require("./rooms.js");
 
 wss.on("connection", function connection(ws) {
   let username;
